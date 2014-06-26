@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A0BBAB0195C3D8D0005ED63 /* github-markdown.css in Resources */ = {isa = PBXBuildFile; fileRef = 5A0BBAAF195C3D8D0005ED63 /* github-markdown.css */; };
+		5A0BBAB7195C446D0005ED63 /* HTMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0BBAB2195C446D0005ED63 /* HTMLViewController.swift */; };
+		5A0BBAB8195C446D0005ED63 /* MarkdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0BBAB3195C446D0005ED63 /* MarkdownViewController.swift */; };
+		5A496F70195C489700D03601 /* MarkdownConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A496F6F195C489700D03601 /* MarkdownConverter.swift */; };
+		5A496F74195C7E5F00D03601 /* MarkdownConverter+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A496F73195C7E5F00D03601 /* MarkdownConverter+Error.swift */; };
+		5A658282195C1FCC004305E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A658281195C1FCC004305E6 /* AppDelegate.swift */; };
+		5A658287195C1FCC004305E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A658285195C1FCC004305E6 /* Main.storyboard */; };
+		5A658289195C1FCC004305E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A658288195C1FCC004305E6 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A65828F195C1FCC004305E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A658274195C1FCC004305E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A65827B195C1FCC004305E6;
+			remoteInfo = Shakedown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A0BBAAF195C3D8D0005ED63 /* github-markdown.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "github-markdown.css"; sourceTree = "<group>"; };
+		5A0BBAB2195C446D0005ED63 /* HTMLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLViewController.swift; sourceTree = "<group>"; };
+		5A0BBAB3195C446D0005ED63 /* MarkdownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownViewController.swift; sourceTree = "<group>"; };
+		5A496F6F195C489700D03601 /* MarkdownConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownConverter.swift; sourceTree = "<group>"; };
+		5A496F73195C7E5F00D03601 /* MarkdownConverter+Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MarkdownConverter+Error.swift"; sourceTree = "<group>"; };
+		5A65827C195C1FCC004305E6 /* Shakedown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shakedown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A658280195C1FCC004305E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A658281195C1FCC004305E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A658286195C1FCC004305E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A658288195C1FCC004305E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A65828E195C1FCC004305E6 /* ShakedownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakedownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A658293195C1FCC004305E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A658279195C1FCC004305E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A65828B195C1FCC004305E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A0BBAAE195C3D8D0005ED63 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A0BBAAF195C3D8D0005ED63 /* github-markdown.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5A0BBAB1195C446D0005ED63 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A0BBAB2195C446D0005ED63 /* HTMLViewController.swift */,
+				5A0BBAB3195C446D0005ED63 /* MarkdownViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5A0BBAB5195C446D0005ED63 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A496F6F195C489700D03601 /* MarkdownConverter.swift */,
+				5A496F73195C7E5F00D03601 /* MarkdownConverter+Error.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A658273195C1FCC004305E6 = {
+			isa = PBXGroup;
+			children = (
+				5A65827E195C1FCC004305E6 /* Shakedown */,
+				5A658291195C1FCC004305E6 /* ShakedownTests */,
+				5A65827D195C1FCC004305E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A65827D195C1FCC004305E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A65827C195C1FCC004305E6 /* Shakedown.app */,
+				5A65828E195C1FCC004305E6 /* ShakedownTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A65827E195C1FCC004305E6 /* Shakedown */ = {
+			isa = PBXGroup;
+			children = (
+				5A658281195C1FCC004305E6 /* AppDelegate.swift */,
+				5A0BBAB1195C446D0005ED63 /* Controllers */,
+				5A0BBAB5195C446D0005ED63 /* Models */,
+				5A658285195C1FCC004305E6 /* Main.storyboard */,
+				5A658288195C1FCC004305E6 /* Images.xcassets */,
+				5A0BBAAE195C3D8D0005ED63 /* Resources */,
+				5A65827F195C1FCC004305E6 /* Supporting Files */,
+			);
+			path = Shakedown;
+			sourceTree = "<group>";
+		};
+		5A65827F195C1FCC004305E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A658280195C1FCC004305E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A658291195C1FCC004305E6 /* ShakedownTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A658292195C1FCC004305E6 /* Supporting Files */,
+			);
+			path = ShakedownTests;
+			sourceTree = "<group>";
+		};
+		5A658292195C1FCC004305E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A658293195C1FCC004305E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A65827B195C1FCC004305E6 /* Shakedown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A658298195C1FCC004305E6 /* Build configuration list for PBXNativeTarget "Shakedown" */;
+			buildPhases = (
+				5A658278195C1FCC004305E6 /* Sources */,
+				5A658279195C1FCC004305E6 /* Frameworks */,
+				5A65827A195C1FCC004305E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shakedown;
+			productName = Shakedown;
+			productReference = 5A65827C195C1FCC004305E6 /* Shakedown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A65828D195C1FCC004305E6 /* ShakedownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A65829B195C1FCC004305E6 /* Build configuration list for PBXNativeTarget "ShakedownTests" */;
+			buildPhases = (
+				5A65828A195C1FCC004305E6 /* Sources */,
+				5A65828B195C1FCC004305E6 /* Frameworks */,
+				5A65828C195C1FCC004305E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A658290195C1FCC004305E6 /* PBXTargetDependency */,
+			);
+			name = ShakedownTests;
+			productName = ShakedownTests;
+			productReference = 5A65828E195C1FCC004305E6 /* ShakedownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A658274195C1FCC004305E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Brian Ivan Gesiak";
+				TargetAttributes = {
+					5A65827B195C1FCC004305E6 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					5A65828D195C1FCC004305E6 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 5A65827B195C1FCC004305E6;
+					};
+				};
+			};
+			buildConfigurationList = 5A658277195C1FCC004305E6 /* Build configuration list for PBXProject "Shakedown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A658273195C1FCC004305E6;
+			productRefGroup = 5A65827D195C1FCC004305E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A65827B195C1FCC004305E6 /* Shakedown */,
+				5A65828D195C1FCC004305E6 /* ShakedownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A65827A195C1FCC004305E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A658287195C1FCC004305E6 /* Main.storyboard in Resources */,
+				5A658289195C1FCC004305E6 /* Images.xcassets in Resources */,
+				5A0BBAB0195C3D8D0005ED63 /* github-markdown.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A65828C195C1FCC004305E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A658278195C1FCC004305E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0BBAB8195C446D0005ED63 /* MarkdownViewController.swift in Sources */,
+				5A496F70195C489700D03601 /* MarkdownConverter.swift in Sources */,
+				5A658282195C1FCC004305E6 /* AppDelegate.swift in Sources */,
+				5A0BBAB7195C446D0005ED63 /* HTMLViewController.swift in Sources */,
+				5A496F74195C7E5F00D03601 /* MarkdownConverter+Error.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A65828A195C1FCC004305E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A658290195C1FCC004305E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A65827B195C1FCC004305E6 /* Shakedown */;
+			targetProxy = 5A65828F195C1FCC004305E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A658285195C1FCC004305E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A658286195C1FCC004305E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A658296195C1FCC004305E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A658297195C1FCC004305E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A658299195C1FCC004305E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Shakedown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A65829A195C1FCC004305E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Shakedown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A65829C195C1FCC004305E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Shakedown.app/Shakedown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShakedownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		5A65829D195C1FCC004305E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Shakedown.app/Shakedown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShakedownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A658277195C1FCC004305E6 /* Build configuration list for PBXProject "Shakedown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A658296195C1FCC004305E6 /* Debug */,
+				5A658297195C1FCC004305E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A658298195C1FCC004305E6 /* Build configuration list for PBXNativeTarget "Shakedown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A658299195C1FCC004305E6 /* Debug */,
+				5A65829A195C1FCC004305E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A65829B195C1FCC004305E6 /* Build configuration list for PBXNativeTarget "ShakedownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A65829C195C1FCC004305E6 /* Debug */,
+				5A65829D195C1FCC004305E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A658274195C1FCC004305E6 /* Project object */;
+}

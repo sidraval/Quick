@@ -10,4 +10,7 @@
    <FileRef
       location = "group:Examples/Scenester/Scenester.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Examples/Shakedown/Shakedown.xcodeproj">
+   </FileRef>
 </Workspace>
