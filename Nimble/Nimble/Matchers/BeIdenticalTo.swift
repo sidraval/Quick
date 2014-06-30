@@ -9,7 +9,12 @@
 import Foundation
 
 class BeIdenticalTo: Matcher {
-    override func failureMessage(actual: NSObject?) -> String {
+    let expected: NSObject?
+    init(_ expected: NSObject?) {
+        self.expected = expected
+    }
+    
+    func failureMessage(actual: NSObject?) -> String {
         if let unwrappedExpected = expected {
             if let unwrappedActual = actual {
                 return NSString(format: "expected '%@' (%p), got '%@' (%p)", unwrappedActual, unwrappedActual, unwrappedExpected, unwrappedExpected)
@@ -21,7 +26,7 @@ class BeIdenticalTo: Matcher {
         }
     }
 
-    override func negativeFailureMessage(actual: NSObject?) -> String {
+    func negativeFailureMessage(actual: NSObject?) -> String {
         if let unwrappedExpected = expected {
             return NSString(format: "expected subject not to be identical to '%@' (%p)", expected!, expected!)
         } else {
@@ -29,7 +34,7 @@ class BeIdenticalTo: Matcher {
         }
     }
 
-    override func match(actual: NSObject?) -> Bool {
+    func match(actual: NSObject?) -> Bool {
         if expected == nil { return false }
         return actual === expected
     }

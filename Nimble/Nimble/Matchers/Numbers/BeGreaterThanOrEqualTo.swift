@@ -7,12 +7,12 @@
 
 import Foundation
 
-class BeGreaterThanOrEqualTo: NumberComparisonMatcher {
+class BeGreaterThanOrEqualTo: NumberComparisonMatcher, Matcher {
     init(_ expected: NSObject?) {
         super.init(expected: expected, comparisonDescription: "greater than or equal to")
     }
 
-    override func match(actual: NSObject?) -> Bool {
+    func match(actual: NSObject?) -> Bool {
         return matchNumber(actual,
             matches: { (actualNumber: NSNumber, expectedNumber: NSNumber) -> Bool in
                 return actualNumber.compare(expectedNumber) != NSComparisonResult.OrderedAscending

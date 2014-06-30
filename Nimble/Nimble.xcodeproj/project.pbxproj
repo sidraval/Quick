@@ -31,6 +31,16 @@
 		34864150195D74AF0099DF92 /* BeLessThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34864143195D74AF0099DF92 /* BeLessThanOrEqualTo.swift */; };
 		34864159195D74AF0099DF92 /* NumberComparisonMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34864148195D74AF0099DF92 /* NumberComparisonMatcher.swift */; };
 		3486415A195D74AF0099DF92 /* NumberComparisonMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34864148195D74AF0099DF92 /* NumberComparisonMatcher.swift */; };
+		34D32DFF1961478800BDB5D4 /* NMBRaise.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D32DFD1961478800BDB5D4 /* NMBRaise.h */; };
+		34D32E001961478800BDB5D4 /* NMBRaise.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D32DFD1961478800BDB5D4 /* NMBRaise.h */; };
+		34D32E011961478800BDB5D4 /* NMBRaise.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D32DFE1961478800BDB5D4 /* NMBRaise.m */; };
+		34D32E021961478800BDB5D4 /* NMBRaise.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D32DFE1961478800BDB5D4 /* NMBRaise.m */; };
+		34D32E08196148FB00BDB5D4 /* Nimble-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D32E07196148FB00BDB5D4 /* Nimble-Bridging-Header.h */; };
+		34D32E09196148FB00BDB5D4 /* Nimble-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D32E07196148FB00BDB5D4 /* Nimble-Bridging-Header.h */; };
+		34E1E62419613ED500B8A58D /* Raise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E1E62319613ED500B8A58D /* Raise.swift */; };
+		34E1E62519613ED500B8A58D /* Raise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E1E62319613ED500B8A58D /* Raise.swift */; };
+		34E1E62B19613F2900B8A58D /* RaiseSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E1E62A19613F2900B8A58D /* RaiseSpec.swift */; };
+		34E1E62C19613F2900B8A58D /* RaiseSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E1E62A19613F2900B8A58D /* RaiseSpec.swift */; };
 		34F375771951596E00CE1B99 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F3756C1951595E00CE1B99 /* Quick.framework */; };
 		34F375CF19515CC900CE1B99 /* Actual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F375C119515CC900CE1B99 /* Actual.swift */; };
 		34F375D019515CC900CE1B99 /* Actual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F375C119515CC900CE1B99 /* Actual.swift */; };
@@ -183,6 +193,11 @@
 		34864142195D74AF0099DF92 /* BeLessThan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeLessThan.swift; sourceTree = "<group>"; };
 		34864143195D74AF0099DF92 /* BeLessThanOrEqualTo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeLessThanOrEqualTo.swift; sourceTree = "<group>"; };
 		34864148195D74AF0099DF92 /* NumberComparisonMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberComparisonMatcher.swift; sourceTree = "<group>"; };
+		34D32DFD1961478800BDB5D4 /* NMBRaise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMBRaise.h; sourceTree = "<group>"; };
+		34D32DFE1961478800BDB5D4 /* NMBRaise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMBRaise.m; sourceTree = "<group>"; };
+		34D32E07196148FB00BDB5D4 /* Nimble-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Nimble-Bridging-Header.h"; sourceTree = "<group>"; };
+		34E1E62319613ED500B8A58D /* Raise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Raise.swift; sourceTree = "<group>"; };
+		34E1E62A19613F2900B8A58D /* RaiseSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaiseSpec.swift; sourceTree = "<group>"; };
 		34F375631951595D00CE1B99 /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = ../../Quick/Quick.xcodeproj; sourceTree = "<group>"; };
 		34F375C119515CC900CE1B99 /* Actual.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Actual.swift; sourceTree = "<group>"; };
 		34F375C219515CC900CE1B99 /* ActualClosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActualClosure.swift; sourceTree = "<group>"; };
@@ -283,6 +298,7 @@
 			isa = PBXGroup;
 			children = (
 				2E37EFF11950663300DF5316 /* Nimble.h */,
+				34D32E07196148FB00BDB5D4 /* Nimble-Bridging-Header.h */,
 				34F375C619515CC900CE1B99 /* DSL.swift */,
 				34F375C119515CC900CE1B99 /* Actual.swift */,
 				34F375C219515CC900CE1B99 /* ActualClosure.swift */,
@@ -339,6 +355,7 @@
 				2E37F0831950672E00DF5316 /* ContainSpec.swift */,
 				2E37F0841950672E00DF5316 /* EqualSpec.swift */,
 				FA8EA89D19568B7900244180 /* BeIdenticalToSpec.swift */,
+				34E1E62A19613F2900B8A58D /* RaiseSpec.swift */,
 				5AFBC47D196072FA0080CC20 /* Numbers */,
 			);
 			path = Matchers;
@@ -389,6 +406,9 @@
 				34F375CC19515CC900CE1B99 /* Contain.swift */,
 				34F375CD19515CC900CE1B99 /* Equal.swift */,
 				FA8EA8A419568BED00244180 /* BeIdenticalTo.swift */,
+				34D32DFD1961478800BDB5D4 /* NMBRaise.h */,
+				34D32DFE1961478800BDB5D4 /* NMBRaise.m */,
+				34E1E62319613ED500B8A58D /* Raise.swift */,
 				3486413F195D74AF0099DF92 /* Numbers */,
 			);
 			path = Matchers;
@@ -415,8 +435,10 @@
 				5AFCB0751959D22F0020B13C /* NMBDSL.h in Headers */,
 				5A7259A2195A1D5D002722D8 /* NMBDSL+BeTrue.h in Headers */,
 				5A7259A0195A1D5D002722D8 /* NMBDSL+BeNil.h in Headers */,
+				34D32DFF1961478800BDB5D4 /* NMBRaise.h in Headers */,
 				93E3341B195D09900031AD9A /* NMBDSL+BeEmpty.h in Headers */,
 				5A72599E195A1D5D002722D8 /* NMBDSL+BeFalse.h in Headers */,
+				34D32E08196148FB00BDB5D4 /* Nimble-Bridging-Header.h in Headers */,
 				2E37EFF21950663300DF5316 /* Nimble.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,8 +450,10 @@
 				5AFCB0761959D22F0020B13C /* NMBDSL.h in Headers */,
 				5A7259A3195A1D5D002722D8 /* NMBDSL+BeTrue.h in Headers */,
 				5A7259A1195A1D5D002722D8 /* NMBDSL+BeNil.h in Headers */,
+				34D32E001961478800BDB5D4 /* NMBRaise.h in Headers */,
 				93E3341C195D09900031AD9A /* NMBDSL+BeEmpty.h in Headers */,
 				5A72599F195A1D5D002722D8 /* NMBDSL+BeFalse.h in Headers */,
+				34D32E09196148FB00BDB5D4 /* Nimble-Bridging-Header.h in Headers */,
 				2E37F09E19506DCF00DF5316 /* Nimble.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -635,6 +659,7 @@
 				34F375CF19515CC900CE1B99 /* Actual.swift in Sources */,
 				34F375D719515CC900CE1B99 /* ClosureExpectation.swift in Sources */,
 				34F375D919515CC900CE1B99 /* DSL.swift in Sources */,
+				34D32E011961478800BDB5D4 /* NMBRaise.m in Sources */,
 				34864149195D74AF0099DF92 /* BeGreaterThan.swift in Sources */,
 				34F375E319515CC900CE1B99 /* Contain.swift in Sources */,
 				3486414D195D74AF0099DF92 /* BeLessThan.swift in Sources */,
@@ -647,6 +672,7 @@
 				34864159195D74AF0099DF92 /* NumberComparisonMatcher.swift in Sources */,
 				34F375E519515CC900CE1B99 /* Equal.swift in Sources */,
 				3486412D195D4CA40099DF92 /* NSObject+Flatten.swift in Sources */,
+				34E1E62419613ED500B8A58D /* Raise.swift in Sources */,
 				3486414F195D74AF0099DF92 /* BeLessThanOrEqualTo.swift in Sources */,
 				5AFCB0771959D22F0020B13C /* NMBDSL.m in Sources */,
 				34F375E719515CC900CE1B99 /* Prediction.swift in Sources */,
@@ -672,6 +698,7 @@
 				2E37F0921950672E00DF5316 /* ContainSpec.swift in Sources */,
 				2E37F08A1950672E00DF5316 /* BeNilSpec.swift in Sources */,
 				5AFBC488196072FA0080CC20 /* BeLessThanSpec.swift in Sources */,
+				34E1E62B19613F2900B8A58D /* RaiseSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,6 +712,7 @@
 				34F375D019515CC900CE1B99 /* Actual.swift in Sources */,
 				34F375D819515CC900CE1B99 /* ClosureExpectation.swift in Sources */,
 				34F375DA19515CC900CE1B99 /* DSL.swift in Sources */,
+				34D32E021961478800BDB5D4 /* NMBRaise.m in Sources */,
 				3486414A195D74AF0099DF92 /* BeGreaterThan.swift in Sources */,
 				34F375E419515CC900CE1B99 /* Contain.swift in Sources */,
 				3486414E195D74AF0099DF92 /* BeLessThan.swift in Sources */,
@@ -697,6 +725,7 @@
 				3486415A195D74AF0099DF92 /* NumberComparisonMatcher.swift in Sources */,
 				34F375E619515CC900CE1B99 /* Equal.swift in Sources */,
 				3486412E195D4CA40099DF92 /* NSObject+Flatten.swift in Sources */,
+				34E1E62519613ED500B8A58D /* Raise.swift in Sources */,
 				34864150195D74AF0099DF92 /* BeLessThanOrEqualTo.swift in Sources */,
 				5AFCB0781959D22F0020B13C /* NMBDSL.m in Sources */,
 				34F375E819515CC900CE1B99 /* Prediction.swift in Sources */,
@@ -722,6 +751,7 @@
 				2E37F0B01950722300DF5316 /* ContainSpec.swift in Sources */,
 				2E37F0B11950722300DF5316 /* EqualSpec.swift in Sources */,
 				5AFBC489196072FA0080CC20 /* BeLessThanSpec.swift in Sources */,
+				34E1E62C19613F2900B8A58D /* RaiseSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -794,6 +824,7 @@
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Nimble/Nimble-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -832,6 +863,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Nimble/Nimble-Bridging-Header.h";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};

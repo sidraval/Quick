@@ -8,24 +8,8 @@
 
 import Foundation
 
-@objc class Matcher {
-    let expected: NSObject?
-    init(_ expected: NSObject?) {
-        self.expected = expected
-    }
-
-    func failureMessage(actual: NSObject?) -> String {
-        return "expected \(actual) to match \(expected)"
-    }
-
-    func negativeFailureMessage(actual: NSObject?) -> String {
-        return "expected \(actual) not to match \(expected)"
-    }
-
-    func match(actual: NSObject?) -> Bool {
-        NSException(name: NSInternalInconsistencyException,
-                    reason:"Matchers must override match()",
-                    userInfo: nil).raise()
-        return false
-    }
+@objc protocol Matcher {
+    func failureMessage(actual: NSObject?) -> String
+    func negativeFailureMessage(actual: NSObject?) -> String
+    func match(actual: NSObject?) -> Bool
 }

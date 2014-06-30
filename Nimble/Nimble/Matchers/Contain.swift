@@ -9,16 +9,21 @@
 import Foundation
 
 class Contain: Matcher {
-    override func failureMessage(actual: NSObject?) -> String {
-        return "expected '\(actual?.nmb_flatten())' to contain '\(expected)'"
+    let expected: NSObject?
+    init(_ expected: NSObject?) {
+        self.expected = expected
     }
 
-    override func negativeFailureMessage(actual: NSObject?) -> String {
-        return "expected '\(actual?.nmb_flatten())' not to contain '\(expected)'"
+    func failureMessage(subject: NSObject?) -> String {
+        return "expected '\(subject?.nmb_flatten())' to contain '\(expected)'"
     }
 
-    override func match(actual: NSObject?) -> Bool {
-        if let x = actual {
+    func negativeFailureMessage(subject: NSObject?) -> String {
+        return "expected '\(subject?.nmb_flatten())' not to contain '\(expected)'"
+    }
+
+    func match(subject: NSObject?) -> Bool {
+        if let x = subject {
             switch x {
             case let array as NSArray:
                 return array.containsObject(expected)
