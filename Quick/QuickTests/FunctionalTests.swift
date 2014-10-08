@@ -139,6 +139,7 @@ class PersonSpec: QuickSpec {
     }
 }
 
+
 class PoetSpec: QuickSpec {
     override func spec() {
         describe("Poet") {
